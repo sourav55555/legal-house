@@ -1,0 +1,26 @@
+/* fonts 
+font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif; */
+
+.button-color{
+    background-color: #B68C5A !important;
+}
+.custom-h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+}
+.custom-p{
+    font-family: 'Poppins', sans-serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+.banner{
+    background-image: url("/images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
