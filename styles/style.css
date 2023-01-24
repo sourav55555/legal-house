@@ -5,13 +5,7 @@ font-family: 'Poppins', sans-serif; */
 .button-color{
     background-color: #B68C5A !important;
 }
-.custom-h2{
-    font-family: 'EB Garamond', serif;
-    font-size: 40px;
-}
-.custom-p{
-    font-family: 'Poppins', sans-serif;
-}
+
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
@@ -25,10 +19,15 @@ font-family: 'Poppins', sans-serif; */
     background-size: 100% 100%;
 }
 
-
 /* responsive bg-image  */
 @media screen and (max-width: 768px) {
     .banner{
         background-image: linear-gradient(180deg, rgba(19, 19, 19, 0.71) 0%, rgba(31, 31, 31, 0.564) 100%), url("/images/responsive-Rectangle\ 4.png");
+    }
+    .carousel-item{
+        min-height: 525px !important;
+    }
+    .carousel-item>img{
+        min-height: 525px !important;
     }
 }
